@@ -23,22 +23,22 @@
   <body class="home">
       <header class = 'primary-header flex'>
           <div>
-              <img src="./assets/shared/logo.svg" alt="space tourism logo">
+              <img class = 'logo' src="./assets/shared/logo.svg" alt="space tourism logo">
           </div>
           <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
           <nav>
-              <ul class="primary-navigation data-visible='false' primary-navigation underline-indicators flex">
-                  <li class="active"> <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html"> <span>00</span> </a>Home</li>
-                  <li> <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html"> <span>01</span> </a>Destination</li>
-                  <li> <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html"> <span>02</span> </a>Crew</li>
-                  <li> <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html"> <span>03</span> </a>Technology</li>
+              <ul id="primary-navigation" class="primary-navigation data-visible ='false' primary-navigation underline-indicators flex">
+                  <li class="active"> <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html"> <span aria-hidden = 'true'>00</span> </a>Home</li>
+                  <li> <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="destination.html"> <span aria-hidden = 'true'>01</span> </a>Destination</li>
+                  <li> <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="crew.html"> <span aria-hidden = 'true'>02</span> </a>Crew</li>
+                  <li> <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="technology.html"> <span aria-hidden = 'true'>03</span> </a>Technology</li>
                
 
               </ul>
           </nav>
 
       </header>
-    <div class="grid-container grid-container--home">
+    <main class="grid-container grid-container--home">
     
       <div>
 
@@ -60,7 +60,7 @@
         <div>
             <a href="#" class="large-button uppercase ff-serif text-dark bg-white">Explore</a>
         </div>
-    </div>
+    </main>
     <script src="index.js"></script>
   </body>
 </html>
