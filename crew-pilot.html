@@ -76,16 +76,16 @@
     </header>
     <main id="main" class="grid-container grid-container--crew flow">
       <h1 class="numbered-title">
-        <span aria-hidden="true">02</span> Meet your crew
+        <span aria-hidden="false">02</span> Meet your crew
       </h1>
       <div class="dot-indicators flex">
-        <button aria-selected="true">
+        <button onclick="document.location = 'crew.html'" aria-selected="false">
           <span class="sr-only">The commander</span>
         </button>
         <button  onclick="document.location = 'crew-specialist.html'"  aria-selected="false">
           <span class="sr-only">The mission specialist</span>
         </button>
-        <button  onclick="document.location = 'crew-pilot.html'"  aria-selected="false">
+        <button  onclick="document.location = 'crew-pilot.html'"  aria-selected="true">
           <span class="sr-only">The pilot</span>
         </button>
         
@@ -96,22 +96,24 @@
       </div>
       <article class="crew-details flow">
         <div>
-          <h2 class="fs-600 ff-serif uppercase">Commander</h2>
-          <p class="fs-700 uppercase ff-serif">Douglas Hurley</p>
+          <h2 class="fs-600 ff-serif uppercase">Pilot</h2>
+          <p class="fs-700 uppercase ff-serif">Victor Glover</p>
         </div>
         <p>
-          Douglas Gerald Hurley is an American engineer, former Marine Corps
-          pilot and former NASA astronaut. He launched into space for the third
-          time as commander of Crew Dragon Demo-2.
+      
+            Pilot on the first operational flight of the SpaceX Crew Dragon to the 
+            International Space Station. Glover is a commander in the U.S. Navy where 
+            he pilots an F/A-18.He was a crew member of Expedition 64, and served as a 
+            station systems flight engineer.
         </p>
       </article>
 
       <picture>
         <source
-          srcset="assets/crew/image-douglas-hurley.png"
+          srcset="assets/crew/image-victor-glover.png"
           type="image/webp"
         />
-        <img src="assets/crew/image-douglas-hurley.png" alt="Douglas Hurley" />
+        <img src="assets/crew/image-victor-glover.png" alt="Douglas Hurley" />
       </picture>
     </main>
   </body>

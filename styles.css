@@ -505,7 +505,7 @@ select {
 }
 .tab-list {
   --gap: 2rem;
-  background:;
+ 
 }
 .dot-indicators > * {
   cursor: pointer;
