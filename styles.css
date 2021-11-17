@@ -143,6 +143,7 @@ select {
 .grid-container--destination > picture {
   grid-area: image;
   max-width: 60%;
+  align-self: start;
 }
 .grid-container--destination > .tab-list {
   grid-area: tabs;
@@ -577,4 +578,8 @@ body {
     background-image: url(./assets/crew/background-crew-desktop.jpg);
     background-position: center;
   }
+}
+/* technology  */
+.technology {
+  background-image: url(./assets/technology/background-technology-desktop.jpg);
 }

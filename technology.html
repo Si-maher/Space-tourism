@@ -20,11 +20,11 @@
 
     <!-- Our custom CSS -->
     <link rel="stylesheet" href="styles.css" />
-    <title>Frontend Mentor | Space tourism website</title>
-    <script src="navigation.js" defer></script>
+    <title>Space tourism website</title>
+    <script src="index.js" defer></script>
   </head>
 
-  <body class="crew">
+  <body class="technology">
     <!-- <a class="skip-to-content" href="#main">Skip to content</a> -->
     <header class="primary-header flex">
       <div>
@@ -74,47 +74,45 @@
         </ul>
       </nav>
     </header>
-
     <main id="main" class="grid-container grid-container--crew flow">
       <h1 class="numbered-title">
-        <span aria-hidden="true">02</span> Meet your crew
+        <span aria-hidden="true">03</span>Space launch 101
       </h1>
-
       <div class="dot-indicators flex">
-        <button onclick="document.location = 'crew.html'" aria-selected="false">
-            <span class="sr-only">The commander</span>
+        <button aria-selected="true">
+          <span class="sr-only">The commander</span>
+        </button>
+        <button  onclick="document.location = 'crew-specialist.html'"  aria-selected="false">
+          <span class="sr-only">The mission specialist</span>
+        </button>
+        <button  onclick="document.location = 'crew-pilot.html'"  aria-selected="false">
+          <span class="sr-only">The pilot</span>
+        </button>
+        
+          <button onclick="document.location = 'crew-engineer.html'" aria-selected="false">
+            <span class="sr-only">The engineer</span>
           </button>
-          <button  onclick="document.location = 'crew-specialist.html'"  aria-selected="false">
-            <span class="sr-only">The mission specialist</span>
-          </button>
-          <button  onclick="document.location = 'crew-pilot.html'"  aria-selected="false">
-            <span class="sr-only">The pilot</span>
-          </button>
-          
-            <button onclick="document.location = 'crew-engineer.html'" aria-selected="true">
-              <span class="sr-only">The engineer</span>
-            </button>
+      
       </div>
-
       <article class="crew-details flow">
-        <header class="flow flow--space-small">
-          <h2 class="fs-600 ff-serif uppercase">Flight Engineer</h2>
-          <p class="fs-700 uppercase ff-serif">Anousheh Ansari</p>
-        </header>
+        <div>
+          <h2 class="fs-600 ff-serif uppercase">The terminology...</h2>
+          <p class="fs-700 uppercase ff-serif">  Launch vehicle</p>
+        </div>
         <p>
-          Anousheh Ansari is an Iranian American engineer and co-founder of
-          Prodea Systems. Ansari was the fourth self-funded space tourist, the
-          first self-funded woman to fly to the ISS, and the first Iranian in
-          space. .
+            A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
+            payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
+            WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
+            it's quite an awe-inspiring sight on the launch pad!
         </p>
       </article>
 
       <picture>
-        <source
-          srcset="assets/crew/image-anousheh-ansari.png"
+        <!-- <source
+          srcset="assets/technology/image-launch-vehicle-portrait.jpg."
           type="image/webp"
-        />
-        <img src="assets/crew/image-anousheh-ansari.png" alt="Anousheh" />
+        /> -->
+        <img src="assets/technology/image-launch-vehicle-portrait.jpg" alt="Douglas Hurley" />
       </picture>
     </main>
   </body>
