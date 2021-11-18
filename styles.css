@@ -391,6 +391,7 @@ select {
 /* ------Header------ */
 .logo {
   margin: 1.5rem clamp(1.5rem, 5vw, 3.5rem);
+  width: 50%;
 }
 .primary-header {
   justify-content: space-between;
