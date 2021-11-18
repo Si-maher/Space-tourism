@@ -23,99 +23,112 @@
     <title>Frontend Mentor | Space tourism website</title>
     <script src="navigation.js" defer></script>
   </head>
+  <div class="overflow">
+    <body class="crew">
+      <!-- <a class="skip-to-content" href="#main">Skip to content</a> -->
+      <header class="primary-header flex">
+        <div>
+          <img
+            src="./assets/shared/logo.svg"
+            alt="space tourism logo"
+            class="logo"
+          />
+        </div>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation">
+          <span class="sr-only" aria-expanded="false">Menu</span>
+        </button>
+        <nav>
+          <ul
+            id="primary-navigation"
+            data-visible="false"
+            class="primary-navigation underline-indicators flex"
+          >
+            <li class="active">
+              <a
+                class="ff-sans-cond uppercase text-white letter-spacing-2"
+                href="index.html"
+                ><span aria-hidden="true">00</span>Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="ff-sans-cond uppercase text-white letter-spacing-2"
+                href="destination.html"
+                ><span aria-hidden="true">01</span>Destination</a
+              >
+            </li>
+            <li>
+              <a
+                class="ff-sans-cond uppercase text-white letter-spacing-2"
+                href="crew.html"
+                ><span aria-hidden="true">02</span>Crew</a
+              >
+            </li>
+            <li>
+              <a
+                class="ff-sans-cond uppercase text-white letter-spacing-2"
+                href="technology.html"
+                ><span aria-hidden="true">03</span>Technology</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-  <body class="crew">
-    <!-- <a class="skip-to-content" href="#main">Skip to content</a> -->
-    <header class="primary-header flex">
-      <div>
-        <img
-          src="./assets/shared/logo.svg"
-          alt="space tourism logo"
-          class="logo"
-        />
-      </div>
-      <button class="mobile-nav-toggle" aria-controls="primary-navigation">
-        <span class="sr-only" aria-expanded="false">Menu</span>
-      </button>
-      <nav>
-        <ul
-          id="primary-navigation"
-          data-visible="false"
-          class="primary-navigation underline-indicators flex"
-        >
-          <li class="active">
-            <a
-              class="ff-sans-cond uppercase text-white letter-spacing-2"
-              href="index.html"
-              ><span aria-hidden="true">00</span>Home</a
-            >
-          </li>
-          <li>
-            <a
-              class="ff-sans-cond uppercase text-white letter-spacing-2"
-              href="destination.html"
-              ><span aria-hidden="true">01</span>Destination</a
-            >
-          </li>
-          <li>
-            <a
-              class="ff-sans-cond uppercase text-white letter-spacing-2"
-              href="crew.html"
-              ><span aria-hidden="true">02</span>Crew</a
-            >
-          </li>
-          <li>
-            <a
-              class="ff-sans-cond uppercase text-white letter-spacing-2"
-              href="technology.html"
-              ><span aria-hidden="true">03</span>Technology</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
+      <main id="main" class="grid-container grid-container--crew flow">
+        <h1 class="numbered-title">
+          <span aria-hidden="true">02</span> Meet your crew
+        </h1>
 
-    <main id="main" class="grid-container grid-container--crew flow">
-      <h1 class="numbered-title">
-        <span aria-hidden="true">02</span> Meet your crew
-      </h1>
-
-      <div class="dot-indicators flex">
-        <button onclick="document.location = 'crew.html'" aria-selected="false">
+        <div class="dot-indicators flex">
+          <button
+            onclick="document.location = 'crew.html'"
+            aria-selected="false"
+          >
             <span class="sr-only">The commander</span>
           </button>
-          <button  onclick="document.location = 'crew-specialist.html'"  aria-selected="false">
+          <button
+            onclick="document.location = 'crew-specialist.html'"
+            aria-selected="false"
+          >
             <span class="sr-only">The mission specialist</span>
           </button>
-          <button  onclick="document.location = 'crew-pilot.html'"  aria-selected="false">
+          <button
+            onclick="document.location = 'crew-pilot.html'"
+            aria-selected="false"
+          >
             <span class="sr-only">The pilot</span>
           </button>
-          
-            <button onclick="document.location = 'crew-engineer.html'" aria-selected="true">
-              <span class="sr-only">The engineer</span>
-            </button>
-      </div>
 
-      <article class="crew-details flow">
-        <header class="flow flow--space-small">
-          <h2 class="fs-600 ff-serif uppercase">Flight Engineer</h2>
-          <p class="fs-700 uppercase ff-serif">Anousheh Ansari</p>
-        </header>
-        <p>
-          Anousheh Ansari is an Iranian American engineer and co-founder of
-          Prodea Systems. Ansari was the fourth self-funded space tourist, the
-          first self-funded woman to fly to the ISS, and the first Iranian in
-          space. .
-        </p>
-      </article>
+          <button
+            onclick="document.location = 'crew-engineer.html'"
+            aria-selected="true"
+          >
+            <span class="sr-only">The engineer</span>
+          </button>
+        </div>
 
-      <picture>
-        <source
-          srcset="assets/crew/image-anousheh-ansari.png"
-          type="image/webp"
-        />
-        <img src="assets/crew/image-anousheh-ansari.png" alt="Anousheh" />
-      </picture>
-    </main>
-  </body>
+        <article class="crew-details flow">
+          <header class="flow flow--space-small">
+            <h2 class="fs-600 ff-serif uppercase">Flight Engineer</h2>
+            <p class="fs-700 uppercase ff-serif">Anousheh Ansari</p>
+          </header>
+          <p>
+            Anousheh Ansari is an Iranian American engineer and co-founder of
+            Prodea Systems. Ansari was the fourth self-funded space tourist, the
+            first self-funded woman to fly to the ISS, and the first Iranian in
+            space. .
+          </p>
+        </article>
+
+        <picture>
+          <source
+            srcset="assets/crew/image-anousheh-ansari.png"
+            type="image/webp"
+          />
+          <img src="assets/crew/image-anousheh-ansari.png" alt="Anousheh" />
+        </picture>
+      </main>
+    </body>
+  </div>
 </html>

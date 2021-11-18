@@ -23,13 +23,14 @@
     <title>Space tourism website</title>
     <script src="index.js" defer></script>
   </head>
+  <div class="overflow">
 
-  <body class="crew">
-    <!-- <a class="skip-to-content" href="#main">Skip to content</a> -->
+    <body class="crew">
+      <!-- <a class="skip-to-content" href="#main">Skip to content</a> -->
     <header class="primary-header flex">
       <div>
         <img
-          src="./assets/shared/logo.svg"
+        src="./assets/shared/logo.svg"
           alt="space tourism logo"
           class="logo"
         />
@@ -39,23 +40,23 @@
       </button>
       <nav>
         <ul
-          id="primary-navigation"
+        id="primary-navigation"
           data-visible="false"
           class="primary-navigation underline-indicators flex"
         >
-          <li class="active">
+        <li class="active">
             <a
-              class="ff-sans-cond uppercase text-white letter-spacing-2"
+            class="ff-sans-cond uppercase text-white letter-spacing-2"
               href="index.html"
               ><span aria-hidden="true">00</span>Home</a
-            >
+              >
           </li>
           <li>
             <a
               class="ff-sans-cond uppercase text-white letter-spacing-2"
               href="destination.html"
               ><span aria-hidden="true">01</span>Destination</a
-            >
+              >
           </li>
           <li>
             <a
@@ -89,10 +90,10 @@
           <span class="sr-only">The pilot</span>
         </button>
         
-          <button onclick="document.location = 'crew-engineer.html'" aria-selected="false">
-            <span class="sr-only">The engineer</span>
-          </button>
-      
+        <button onclick="document.location = 'crew-engineer.html'" aria-selected="false">
+          <span class="sr-only">The engineer</span>
+        </button>
+        
       </div>
       <article class="crew-details flow">
         <div>
@@ -101,19 +102,20 @@
         </div>
         <p>
       
-  Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind 
-  the Linux-based Ubuntu operating system. Shuttleworth became the first South 
-  African to travel to space as a space tourist.
+          Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind 
+          the Linux-based Ubuntu operating system. Shuttleworth became the first South 
+          African to travel to space as a space tourist.
         </p>
       </article>
-
+      
       <picture>
         <source
-          srcset="assets/crew/image-mark-shuttleworth.png"
-          type="image/webp"
+        srcset="assets/crew/image-mark-shuttleworth.png"
+        type="image/webp"
         />
         <img src="assets/crew/image-mark-shuttleworth.png" alt="Douglas Hurley" />
       </picture>
     </main>
   </body>
-</html>
+</div>
+  </html>

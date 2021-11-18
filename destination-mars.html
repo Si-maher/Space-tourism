@@ -16,9 +16,10 @@
   <title> Space tourism website</title>
   <script src="index.js" defer></script>
 </head>
+<div class="overflow">
 
-<body class="destination">
-  <!-- <a class="skip-to-content" href="#main">Skip to content</a> -->
+  <body class="destination">
+    <!-- <a class="skip-to-content" href="#main">Skip to content</a> -->
   <header class="primary-header flex">
     <div>
       <img src="./assets/shared/logo.svg" alt="space tourism logo" class="logo">
@@ -26,39 +27,39 @@
     <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
     <nav>
         <ul id="primary-navigation" data-visible="false" class="primary-navigation underline-indicators flex">
-            <li class="active"><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html"><span aria-hidden="true">00</span>Home</a>
+          <li class="active"><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html"><span aria-hidden="true">00</span>Home</a>
             <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="destination.html"><span aria-hidden="true">01</span>Destination</a>
-            <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="crew.html"><span aria-hidden="true">02</span>Crew</a>
-            <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="technology.html"><span aria-hidden="true">03</span>Technology</a>
+              <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="crew.html"><span aria-hidden="true">02</span>Crew</a>
+                <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="technology.html"><span aria-hidden="true">03</span>Technology</a>
         </ul>
-    </nav>
-  </header>
-  
-  <main id="main" class="grid-container grid-container--destination flow">
+      </nav>
+    </header>
+    
+    <main id="main" class="grid-container grid-container--destination flow">
       <h1 class="numbered-title"><span aria-hidden="true">01</span>
-           Pick your destination
+        Pick your destination
       </h1>
- 
+      
       <picture >
         <source  srcset="assets/destination/image-mars.webp" type="image/webp">
         <img hidden src="assets/destination/image-mars.png" alt="the moon">
       </picture>
-    
-
+      
+      
       <div class="tab-list underline-indicators flex">
         <button  onclick ='document.location ="destination.html"'  aria-selected="false" class="uppercase ff-sans-cond text-accent  letter-spacing-2">moon </button>
-       
-      
+        
+        
         <button onclick = 'document.location ="destination-mars.html"' aria-selected="true" class="uppercase ff-sans-cond text-accent  letter-spacing-2">mars </button>
-    
+        
     
         <button onclick = 'document.location ="destination-europa.html"' aria-selected="false" class="uppercase ff-sans-cond text-accent  letter-spacing-2">europa </button>
-     
-     
+        
+        
         <button onclick = 'document.location ="destination-titan.html"' aria-selected="false" class="uppercase ff-sans-cond text-accent  letter-spacing-2">titan </button>
-    </div>
-
-    <article class="destination-info">
+      </div>
+      
+      <article class="destination-info">
 
         <h2 class="fs-800 uppercase ff-serif">Mars</h2>
 
@@ -68,7 +69,7 @@
   
 
 
-         <div class="destination-meta flex">
+            <div class="destination-meta flex">
         <div>
           <h3 class="text-accent fs-200 uppercase" >Avg. distance</h3>
           <p class="fs-500 ff-serif uppercase">225 mil. km</p>
@@ -79,12 +80,13 @@
         </div>
       </div>
     </article>
-  
+    
   </main>
   
-<body>
 
+  
 
+</div>
   
 </body>
 </html>
