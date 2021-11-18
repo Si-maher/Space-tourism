@@ -5,7 +5,7 @@ This was my first project from Frontend Mentors [Space tourism website challenge
 
 # Aim
 
-The aim was to create the above website as close as possible to the original design, although I did make a few tweaks and adjustments which changed the design a little.
+The aim was to create the above website as close as possible to the original design, although I did make a few tweaks and adjustments which changed the design a little. The website is responsive for different screen sizes.
 
 ### What I learned
 
@@ -26,7 +26,7 @@ I also implemented a new way to display the mobile navigation, which I think I w
 ![Space Tourism website](Moon.PNG)
 ![Space Tourism website](Technology.PNG)
 
-# [Demo] ()
+# [Demo](https://spacetourismwebsite.netlify.app/)
 
 # Author 
 
