@@ -22,7 +22,9 @@ I also implemented a new way to display the mobile navigation, which I think I w
 # Preview
 
 ![Space Tourism website](spaceTourism.PNG)
-![Space Tourism website](spaceTourism.PNG)
+![Space Tourism website](crew.PNG)
+![Space Tourism website](Moon.PNG)
+![Space Tourism website](Technology.PNG)
 
 # [Demo] ()
 
