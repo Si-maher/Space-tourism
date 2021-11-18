@@ -506,7 +506,6 @@ select {
 }
 .tab-list {
   --gap: 2rem;
- 
 }
 .dot-indicators > * {
   cursor: pointer;
@@ -516,6 +515,7 @@ select {
   padding: 0.5em;
   background-color: hsl(var(--clr-white) / 0.25);
 }
+
 .dot-indicators > *:hover,
 .dot-indicators > *:focus {
   background-color: hsl(var(--clr-white) / 0.25);
@@ -582,4 +582,10 @@ body {
 /* technology  */
 .technology {
   background-image: url(./assets/technology/background-technology-desktop.jpg);
+}
+.tech-numbered-link {
+  border: .1px solid hsl(var(--clr-white) / 1);
+  border-radius: 50%;
+  height: 50px;
+ 
 }
